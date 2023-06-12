@@ -6,7 +6,7 @@
 }
 
 body{
-    background: linear-gradient(to top, rgb(155, 0, 0),rgb(184, 120, 0),rgb(182, 182, 0),rgb(15, 109, 15),rgb(60, 60, 255),indigo,rgb(159, 80, 159));
+    background-color: white;
     padding: 20px 40px 40px 40px;
 }
 
@@ -15,7 +15,7 @@ body{
 }
 
 a{
-    color: #F9F9F9;
+    color: #222222;
     text-decoration: none;
 }
 
@@ -58,7 +58,7 @@ nav{
 .recommended{
     font-size: 140%;
     display: flex;
-    color: #F9F9F9;
+    color: #222222;
     margin: 30px 0;
 }
 
@@ -94,7 +94,7 @@ nav{
 .para{
     margin-bottom: 40px;
     font-size: 120%;
-    color: #F9F9F9;
+    color: #222222;
 }
 
 .p-title{
@@ -103,7 +103,7 @@ nav{
 }
 
 .note{
-    color: #F9F9F9;
+    color: #222222;
     font-size: 180%;
     margin-bottom: 40px;
 }
@@ -129,7 +129,7 @@ nav{
         width: auto;
     }
     body{
-        padding: 10px 20px 20px 20px;
+        padding: 10px 24px 24px 24px;
     }
     .nav-item{
         display: block;
@@ -152,6 +152,7 @@ nav{
     }
 
     .card{
-        width: 98%;
+        width: auto;
+        margin-bottom: 40px;
     }
 }
