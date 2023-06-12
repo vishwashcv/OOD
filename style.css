@@ -6,7 +6,7 @@
 }
 
 body{
-    background-color: #222222;
+    background: linear-gradient(to top, rgb(155, 0, 0),rgb(184, 120, 0),rgb(182, 182, 0),rgb(15, 109, 15),rgb(60, 60, 255),indigo,rgb(159, 80, 159));
     padding: 20px 40px 40px 40px;
 }
 
@@ -46,15 +46,18 @@ nav{
 
 .title{
     display: flex;
-    padding: 10vh 0;
-    align-items: center;
-    font-size: 600%;
+    padding: 2vh 1vw;
+    font-size: 574%;
     letter-spacing: -4px;
-    color: #f9f9f9;
+    background: -webkit-linear-gradient( #7e7e7e,#eee);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
 }
 
 .recommended{
     font-size: 140%;
+    display: flex;
     color: #F9F9F9;
     margin: 30px 0;
 }
@@ -103,4 +106,52 @@ nav{
     color: #F9F9F9;
     font-size: 180%;
     margin-bottom: 40px;
+}
+
+.p-para{
+    font-size: 100%;
+    letter-spacing: 0px;
+    width: 50vw;
+}
+
+.r-center{
+    margin: 2vh auto;
+    display: flex;
+    justify-content: center;
+}
+
+
+@media screen and (max-width: 800px) {
+    .r-center{
+        display: block;
+    }
+    .p-para{
+        width: auto;
+    }
+    body{
+        padding: 10px 20px 20px 20px;
+    }
+    .nav-item{
+        display: block;
+        width: auto;
+    }
+    .nav-items{
+        width: auto;
+        font-size: 90%;
+        padding: 2vh 0;
+    }
+    .title{
+        font-size: 300%;
+    }
+
+    .note{
+        font-size: 140%;
+    }
+    .flex{
+        display: block;
+    }
+
+    .card{
+        width: 98%;
+    }
 }
